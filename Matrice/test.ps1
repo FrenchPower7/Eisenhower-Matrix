@@ -10,7 +10,7 @@ $form.Size = New-Object System.Drawing.Size(500, 500)
 $width = 240
 $height = 200
 
-# Créer un style de police
+# Le style de police
 $font = New-Object System.Drawing.Font("Arial", 10, [System.Drawing.FontStyle]::Bold)
 
 # Initialiser une structure de données vide pour stocker les tâches
@@ -68,7 +68,7 @@ function Create-QuadrantPanel {
         $labelTask.AutoSize = $true
         $labelTask.Location = New-Object System.Drawing.Point(10, $yPosition)
         $panel.Controls.Add($labelTask)
-        $yPosition += 20 # Ajuster la position verticale pour chaque tâche
+        $yPosition += 20
     }
 
     return $panel
