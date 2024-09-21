@@ -1,0 +1,4 @@
+UrgentImportant:Faire Pipi
+NonUrgentImportant:Planifier la réunion
+UrgentNonImportant:Regarder dehors
+NonUrgentNonImportant:Regarder des vidéos YouTube
