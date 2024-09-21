@@ -1,13 +1,14 @@
-# 🇬🇧 Eisenhower matrix in Powershell
+# 🇬🇧 Eisenhower Matrix in PowerShell
 
-It's a simple code for an Eisenhower matrix in PowerShell.
-It's only in french for the moment.
+It's a simple code for an Eisenhower matrix in PowerShell.  
+It's only in French for the moment.
 
-The english version is comming soon . . .
+- The English version is coming soon...
 
-# 🇫🇷 Matrice Eisenhower en Powershell
+# 🇫🇷 Matrice Eisenhower en PowerShell
 
-C'est un simple code d'une matrice Eisenhower en Powershell
-C'est pour le moment trés classique avec juste une fenetre et les quatre quadrans
-tous ce qui est "é" "à" etc... ne sont pas bien afficher
-
+C'est un simple code d'une matrice Eisenhower en PowerShell.  
+C'est pour le moment très classique, avec juste une fenêtre et les quatre quadrants.  
+- Tout ce qui est "é", "à", etc. ne s'affiche pas bien.  
+- Le chemin est fixe par rapport au dossier (donc, pour faire simple, le fichier des tâches doit être au même endroit que le code).  
+- Il faut que j'ajoute un moyen de pouvoir modifier et supprimer des tâches.
