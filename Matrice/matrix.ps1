@@ -22,7 +22,7 @@ $tasks = @{
 }
 
 # Lire le fichier texte et remplir la structure de données
-$filePath = "C:\Users\Ethan B\OneDrive - Reseau-GES\Bureau\Matrice\taches.txt"
+$filePath = "\taches.txt"
 if (Test-Path $filePath) {
     Get-Content $filePath | ForEach-Object {
         $parts = $_ -split ":", 2
